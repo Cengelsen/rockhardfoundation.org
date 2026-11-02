@@ -1,0 +1,103 @@
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #8fbc8f;
+  color: #222222;
+  margin: 0;
+  padding: 15px;
+}
+
+#wrapper {
+  max-width: 820px;
+  margin: 0 auto;
+  background-color: #fffff0;
+  border: 4px ridge #8b4513;
+  padding: 10px 30px 20px 30px;
+}
+
+marquee {
+  background-color: #ffff99;
+  color: #8b0000;
+  font-weight: bold;
+  border: 1px solid #cc9900;
+  padding: 3px;
+}
+
+h1 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 42px;
+  color: #556b2f;
+  text-shadow: 2px 2px 0 #c0c0c0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #8b0000;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  color: #000080;
+  border-bottom: 2px dotted #8b4513;
+}
+
+a {
+  color: #0000cc;
+}
+
+a:visited {
+  color: #800080;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+.new {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  animation: blink 1.2s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.donate-box {
+  background-color: #ffff66;
+  border: 3px dashed #ff6600;
+  padding: 10px 15px;
+  margin: 15px 0;
+}
+
+.red {
+  color: #cc0000;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th {
+  background-color: #d2b48c;
+}
+
+iframe {
+  border: 3px solid #8b4513;
+}
+
+input[type="text"] {
+  margin: 3px;
+}
+
+#counter {
+  font-family: "Courier New", monospace;
+  background-color: #000000;
+  color: #00ff00;
+  padding: 1px 5px;
+  letter-spacing: 2px;
+}
