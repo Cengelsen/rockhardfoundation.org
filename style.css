@@ -6,6 +6,24 @@ body {
   padding: 15px;
 }
 
+html,
+body,
+input {
+  cursor: url("images/rock-cursor.jpg") 12 12, auto;
+}
+
+a,
+button,
+select,
+label,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="checkbox"],
+input[type="radio"] {
+  cursor: url("images/sand-cursor.jpg") 12 2, pointer;
+}
+
 #wrapper {
   max-width: 820px;
   margin: 0 auto;
